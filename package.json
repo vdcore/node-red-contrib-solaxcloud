@@ -6,5 +6,9 @@
         "nodes": {
             "SolaxCloud": "solaxcloud.js"
         }
-    }
+    },
+   "repository": {
+   "type": "git",
+   "url": "https://github.com/vdcore/node-red-contrib-solaxcloud.git"
+  }
 }
