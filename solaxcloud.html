@@ -1,0 +1,41 @@
+<script type="text/javascript">
+RED.nodes.registerType('SolaxCloud',{
+        category: 'vdcr',
+        color: '#FFCC66',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "",
+        label: function() {
+            return this.name||"SolaxCloud";
+        },
+	credentials: {
+	    username: {type:"text", required:true},
+            password: {type:"password", required:true}
+        },
+});
+
+
+</script>
+
+<script type="text/html" data-template-name="SolaxCloud">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+ <p><b>SolaxCloud Login:</b></p>
+ <div class="form-row">
+     <label for="node-input-username"><i class="icon-tag"></i> Username</label>
+     <input type="text" id="node-input-username">
+ </div>
+ <div class="form-row">
+     <label for="node-input-password"><i class="icon-tag"></i> Password</label>
+     <input type="password" id="node-input-password">
+ </div>
+</script>
+<script type="text/html" data-help-name="SolaxCloud">
+    <p>Daten von SolaxCloud auslesen!</p>
+</script>
+

@@ -1,0 +1,10 @@
+{
+  "name": "SolaxCloud",
+  "version": "1.0.0",
+  "description": "",
+  "node-red" : {
+        "nodes": {
+            "SolaxCloud": "solaxcloud.js"
+        }
+    }
+}
