@@ -9,7 +9,9 @@ ist es nicht so Professionell das es sich für mich lohnt ein npm daraus zu erst
 Zum installieren des Knoten:
 
 git clone https://github.com/vdcore/node-red-contrib-solaxcloud.git
+
 cd ~/.node_red
+
 npm install /path/to/node-red-contrib-solaxcloud
 
 
