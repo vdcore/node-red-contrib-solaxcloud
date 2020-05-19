@@ -1,2 +1,2 @@
 # node-red-contrib-solaxcloud
-Reading Interner data from Solaxcloud.com
+Reading Inverter data from Solaxcloud.com
